@@ -1,7 +1,5 @@
-
-<div style="display:flex;align-items:center">
-<img src="./assets/pomodoro.png" alt="drawing" style="width:200px;"/> <h1 style="font-size:4rem">Pomodoro Timer</h1>
-</div>
+![](./assets/pomodoro.png)
+# Pomodoro Timer
 
 🍅 Boost Your Productivity with the Ultimate Pomodoro VS Code Extension! 🚀
 
