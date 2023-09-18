@@ -27,6 +27,7 @@ Tired of fumbling through menus to manage your Pomodoro sessions? We've got you 
 👉 Effortlessly stay in the flow without missing a beat.
 
 Experience the ultimate convenience. Get ready to code like a pro with our sleek Status Bar Icon feature! 🚀💡 #ProductivitySimplified
+
 ![](assets/statusbarIcon.png)
 
 ### Statusbar session tracking
