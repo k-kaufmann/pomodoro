@@ -36,7 +36,9 @@ Experience the ultimate convenience. Get ready to code like a pro with our sleek
 No more guessing or distractions. It's time to keep your Pomodoro progress front and center! 🚀
 
 👉 Track your active Pomodoro session directly from the status bar.
+
 👉 Real-time updates on your coding focus right at your fingertips.
+
 👉 Stay in the zone without ever leaving your code editor.
 
 Unlock precision and productivity like never before. Elevate your coding experience with Status Bar Text Tracking! 📈👨‍💻 #PomodoroPro
