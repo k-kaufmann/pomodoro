@@ -14,6 +14,11 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-kaufmann/pomodoro"
+  },
+  "license": "MIT",
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
