@@ -1,0 +1,103 @@
+{
+  "name": "simple-pomodoro",
+  "displayName": "Simple Pomodoro Timer",
+  "description": "Simple pomodoro timer",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "icon": "assets/pomodoro.png",
+  "publisher": "k-kaufmann",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pomodoro.start",
+        "title": "Start Timer",
+        "category": "Pomodoro"
+      },
+      {
+        "command": "pomodoro.stop",
+        "title": "Stop Timer",
+        "category": "Pomodoro"
+      }
+    ],
+    "configuration": {
+      "title": "Pomodoro Timer",
+      "properties": {
+        "pomodoro.workingPeriodDuration": {
+          "type": "number",
+          "default": 25,
+          "description": "Duration of the working period in minutes"
+        },
+        "pomodoro.shortPausePeriodDuration": {
+          "type": "number",
+          "default": 5,
+          "description": "Duration of the short pause in minutes"
+        },
+        "pomodoro.longPausePeriodDuration": {
+          "type": "number",
+          "default": 15,
+          "description": "Duration of the long pause in minutes"
+        },
+        "pomodoro.finishedWorkingPeriod": {
+          "type": "string",
+          "default": "Working period finished",
+          "description": "Notification text after the work period"
+        },
+        "pomodoro.finishedShortPause": {
+          "type": "string",
+          "default": "Short break finished",
+          "description": "Notification text after the short break"
+        },
+        "pomodoro.finishedLongBreak": {
+          "type": "string",
+          "default": "Long break finished",
+          "description": "Notification text after long break"
+        },
+        "pomodoro.finishedSession": {
+          "type": "string",
+          "default": "Session finished",
+          "description": "Notification text after session"
+        },
+        "pomodoro.iterations": {
+          "type": "number",
+          "default": 4,
+          "description": "Amount of working periods"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.82.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-electron": "^2.3.4"
+  }
+}
