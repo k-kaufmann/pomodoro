@@ -2,7 +2,7 @@
   "name": "pomodoro-timer-modern",
   "displayName": "Pomodoro-Timer",
   "description": "Supercharge your coding productivity with the Pomodoro Technique right in Visual Studio Code. Stay focused, track your sessions, and code like a pro!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.82.0"
   },

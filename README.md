@@ -13,16 +13,30 @@ Get ready to supercharge your coding game with the Pomodoro VS Code Extension. S
 
 ## Features
 
+- [Timer Notification](#timer-notification)
+- [Statusbar Icon](#statusbar-icon)
+- [Statusbar session tracking](#statusbar-session-tracking)
+
+### Timer notification
+🔔 Never Miss a Beat! Timely Notifications for Your Pomodoro Sessions 🚀
+
+Introducing a game-changer for your coding routine! Stay in sync with your Pomodoro timer like never before. 📣
+
+- 👉 Receive instant notifications when your session is complete.
+- 👉 Keep your workflow seamless, even when you're away from your code.
+- 👉 Stay in control and achieve peak productivity with every Pomodoro.
+
+![](./assets/notification.png)
+
+Elevate your coding experience. Try out our Notification Feature and code with confidence! 🎉👨‍💻 #StayProductive
 ### Statusbar Icon
 🚀 Streamline Your Workflow with Ease! Introducing our Status Bar Icon Feature 🕒
 
 Tired of fumbling through menus to manage your Pomodoro sessions? We've got you covered! 🎉
 
-👉 Start and stop your current session with a single click!
-
-👉 Instantly access Pomodoro controls from your VS Code's status bar.
-
-👉 Effortlessly stay in the flow without missing a beat.
+- 👉 Start and stop your current session with a single click!
+- 👉 Instantly access Pomodoro controls from your VS Code's status bar.
+- 👉 Effortlessly stay in the flow without missing a beat.
 
 Experience the ultimate convenience. Get ready to code like a pro with our sleek Status Bar Icon feature! 🚀💡 #ProductivitySimplified
 
@@ -33,11 +47,9 @@ Experience the ultimate convenience. Get ready to code like a pro with our sleek
 
 No more guessing or distractions. It's time to keep your Pomodoro progress front and center! 🚀
 
-👉 Track your active Pomodoro session directly from the status bar.
-
-👉 Real-time updates on your coding focus right at your fingertips.
-
-👉 Stay in the zone without ever leaving your code editor.
+- 👉 Track your active Pomodoro session directly from the status bar.
+- 👉 Real-time updates on your coding focus right at your fingertips.
+- 👉 Stay in the zone without ever leaving your code editor.
 
 Unlock precision and productivity like never before. Elevate your coding experience with Status Bar Text Tracking! 📈👨‍💻 #PomodoroPro
 
