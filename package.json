@@ -11,6 +11,18 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "timer",
+    "productivity",
+    "time management",
+    "pomodoro",
+    "task",
+    "task planing",
+    "pair programming",
+    "productivity",
+    "timeboxing",
+    "clock"
+  ],
   "activationEvents": [
     "onStartupFinished"
   ],
