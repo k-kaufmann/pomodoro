@@ -1,4 +1,3 @@
-![](./assets/pomodoro.png)
 # Pomodoro Timer
 
 🍅 Boost Your Productivity with the Ultimate Pomodoro VS Code Extension! 🚀
