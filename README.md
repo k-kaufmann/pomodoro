@@ -1,6 +1,6 @@
 
 <div style="display:flex;align-items:center">
-<img src="assets/pomodoro.png" alt="drawing" style="width:200px;"/> <h1 style="font-size:4rem">Pomodoro Timer</h1>
+<img src="./assets/pomodoro.png" alt="drawing" style="width:200px;"/> <h1 style="font-size:4rem">Pomodoro Timer</h1>
 </div>
 
 🍅 Boost Your Productivity with the Ultimate Pomodoro VS Code Extension! 🚀
@@ -28,7 +28,7 @@ Tired of fumbling through menus to manage your Pomodoro sessions? We've got you 
 
 Experience the ultimate convenience. Get ready to code like a pro with our sleek Status Bar Icon feature! 🚀💡 #ProductivitySimplified
 
-![](assets/statusbarIcon.png)
+![](./assets/statusbarIcon.png)
 
 ### Statusbar session tracking
 🕒 Stay on Top of Your Pomodoro Sessions with Status Bar Text Tracking! 📊
@@ -43,7 +43,7 @@ No more guessing or distractions. It's time to keep your Pomodoro progress front
 
 Unlock precision and productivity like never before. Elevate your coding experience with Status Bar Text Tracking! 📈👨‍💻 #PomodoroPro
 
-![](assets/statusbarText.png)
+![](./assets/statusbarText.png)
 
 ## Extension Commands
 - `pomodoro.start`: Starts a new pomodoro session
